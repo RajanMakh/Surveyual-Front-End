@@ -1,0 +1,11 @@
+.aboutUs h1 {
+    font-size: 50px;
+    color: #14213d;
+    padding-top: 100px;
+}
+
+.aboutUs h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #14213d;
+}

@@ -1,0 +1,35 @@
+h1 {
+    font-size: 50px;
+    color: #14213d;
+    padding-top: 100px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #14213d;
+}
+
+.info p {
+    font-style: italic;
+    font-size: 20px;
+    color: #fca311;
+}
+
+.infoLink p {
+    font-style: italic;
+    font-size: 20px;
+    color: #fca311;
+    text-decoration: none;
+    transition-duration: 0.8s;
+}
+
+.infoLink p :hover {
+text-decoration: none;
+font-size: 21px;
+}
+
+.infoLink p :visited {
+text-decoration: none;
+color: #fca311;
+}

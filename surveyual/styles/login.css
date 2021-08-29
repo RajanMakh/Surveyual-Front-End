@@ -1,0 +1,131 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", sans-serif;
+    text-align: center;
+    min-height: 800px;
+}
+
+body.preload *{
+    animation-duration: 0.8s !important;
+    -webkit-animation-duration: 0.8s !important;
+    transition: background-color 0.8s, color 0.8s !important;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow {
+    width: 63%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.break {
+    width: 2%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.form {
+    width: 35%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+}
+
+h1 {
+    font-size: 50px;
+    color: #14213d;
+    padding-top: 200px;
+}
+
+input {
+    border: 2px solid #14213d;
+    background-color: #e5e5e5;
+    height: 40px;
+    width: 350px;
+    transition-duration: 0.8s;
+    outline: none;
+}
+
+input:hover {
+    background-color: #14213d;
+    color: #e5e5e5;
+}
+
+input:hover::placeholder {
+    color: #e5e5e5;
+}
+
+.form input[type="email"],[type="password"] {
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: #14213d;
+    transition-duration: 0.8s;
+}
+
+p {
+    color: #14213d;
+    font-size: 17px;
+    transition-duration: 0.8s;
+}
+
+p:hover {
+    font-size: 19px;
+}
+
+button {
+    margin-top: 200px;
+    border: 2px solid #14213d;
+    background-color: #14213d;
+    font-size: 20px;
+    color: #e5e5e5;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    transition-duration: 0.8s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+
+a{
+    text-decoration: none;
+    color: #14213d;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #14213d;
+}
+
+.fixed {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #14213d;
+}
+
+
+

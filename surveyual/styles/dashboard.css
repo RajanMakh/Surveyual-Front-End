@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Top Navigation Bar */
+.top_navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #14213D;
+    display: flex;
+    align-items: center;
+}
+
+.top_navbar .logo {
+    width: 65%;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.top_navbar .menu {
+    width: calc(100% - 400px);
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    overflow: hidden;
+    background-color: #14213D;
+}
+
+.navbar a {
+     float: left;
+     font-size: 14px;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     transition: all 0.6s ease;
+ }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.6s ease;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #fca311;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #14213D;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: all 0.6s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #fca311;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Side Bar */
+.toggle-menu button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.toggle-menu button:hover  {
+    transform: scale(1.1);
+}
+
+.hover_collapse .sidebar {
+    width: 70px;
+    transition: all 0.2s ease;
+}
+
+.hover_collapse .sidebar ul li a .text {
+    display: none;
+    transition: all 0.2s ease;
+}
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #fca311;
+    transition: all 0.2s ease;
+    border-right: 5px solid #14213D;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 20px 25px;
+    border-bottom: 1px solid #fca311;
+    transition: all 0.2s ease;
+}
+
+.sidebar ul li a .text {
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.6s ease;
+
+}
+
+.sidebar ul li a:hover {
+    background: #14213D;
+    transition: all 0.6s ease;
+}
+
+.sidebar ul li a:hover .text {
+    color: white;
+}
+
+
+.click_collapse .sidebar {
+    transition: all 0.2s ease;
+}
+
+/* Main Content */
+.main_container {
+    margin-top: 60px;
+    margin-left: 70px;
+    padding: 25px;
+    width: calc(100% - 70px);
+    transition: all 0.2s ease;
+}
+
+.main_container .content {
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: justify;
+    transition: all 0.2s ease;
+}
+
+.click_collapse .main_container {
+    width: calc(100% - 300px);
+    margin-left: 250px;
+    transition: all 0.2s ease;
+}
+
+.click_collapse .dashBtn {
+    height:225px;
+    width:225px;
+    transition: all 0.2s ease;
+}
+
+/* Dashboard Buttons */
+.dashBtn {
+    margin-top: 140px;
+    margin-left: 30px;
+    background: #14213D;
+    color: white;
+    font-size: 20px;
+    border: 5px solid #14213D;
+    height:250px;
+    width:250px;
+    transition: all 0.6s ease;
+    cursor:pointer;
+    position: center;
+}
+
+.dashBtn:hover {
+    background: #fca311;
+    color: black;
+}
+
+.info p {
+    font-style: italic;
+    font-size: 20px;
+    color: #fca311;
+}
+
+/* Footer */
+footer{
+    height: 45px;
+    background: #14213D;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+
+
+

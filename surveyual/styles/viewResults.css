@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 60px 60px;
+    grid-auto-flow: row;
+    grid-template-areas:
+            "Title Created Icons"
+            "Description Responses Status";
+    background-color: #14213D;
+    border: solid 4px #14213D;
+    color: white;
+    outline: none;
+}
+
+.container p {
+    color: white;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.container .h2 {
+    color: white;
+}
+
+.Title {
+    grid-area: Title;
+}
+
+.Description {
+    grid-area: Description;
+}
+
+
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 60px 60px;
+    grid-auto-flow: row;
+    grid-template-areas:
+            "Questions Created Icons"
+            "Answers Responses Status";
+    background-color: #fca311;
+    border: solid 4px #fca311;
+    color: #14213D;
+    outline: none;
+}
+
+.container2 p {
+    color: white;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.Questions {
+    grid-area: Questions;
+}
+
+.Answers {
+    grid-area: Answers;
+}
+
+.container2 .h2 {
+    color: white;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 18px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+
+.total {
+    background-color: #14213D;
+    border: solid 4px #14213D;
+    color: white;
+    outline: none;
+    width: 220px;
+    padding-bottom: 4px;
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+    margin-top: -60px;
+}
+
+.total .h2 {
+    color: white;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.total .p {
+    color: white;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+#submit {
+    border: 2px solid #14213d;
+    background-color: #14213d;
+    font-size: 20px;
+    color: #e5e5e5;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    transition-duration: 0.8s;
+    outline: none;
+    margin-top: 20px;
+}
+
+#submit:hover {
+    background-color: #fca311;
+    color: #14213d;
+}
